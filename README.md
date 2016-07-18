@@ -91,7 +91,8 @@ Insere um novo registro na tabela. Deve ser enviado no seguinte formato:
 `{`<br>
 `"nome_do_campo_1": "valor_do_campo_1",`<br>
 `"nome_do_campo_2": "valor_do_campo_2",`<br>
-`"nome_do_campo_3": "valor_do_campo_3"}`<br>
+`"nome_do_campo_3": "valor_do_campo_3"`
+`}`<br>
 
 **PUT /?id=id_do_registro**<br>
 Edita um registro da tabela. Deve ser enviado no mesmo formato do POST
