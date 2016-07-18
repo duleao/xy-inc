@@ -1,0 +1,4 @@
+<?php
+	const TABLE_NAME = '#TABLE_NAME';
+	require ('tableRequestProcessor.php');
+?>
