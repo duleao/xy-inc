@@ -91,7 +91,7 @@ Insere um novo registro na tabela. Deve ser enviado no seguinte formato:
 `{`<br>
 `"nome_do_campo_1": "valor_do_campo_1",`<br>
 `"nome_do_campo_2": "valor_do_campo_2",`<br>
-`"nome_do_campo_3": "valor_do_campo_3"`
+`"nome_do_campo_3": "valor_do_campo_3"`<br>
 `}`<br>
 
 **PUT /?id=id_do_registro**<br>
