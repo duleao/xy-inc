@@ -32,7 +32,7 @@ Retorna o nome de todas as tabelas no seguinte formato:
 `}`<br>
 
 **GET /?rowsInfo=true**<br>
-Retorna o nome de todas as tabelas, bem como informações de todos seus campos no seguinte formato:
+Retorna o nome de todas as tabelas, além de informações de todos seus campos no seguinte formato:
 
 `{`<br>
 `"status":"ok",`<br>
@@ -83,7 +83,7 @@ Retorna todos os registros da tabela no seguinte formato:
 `}]}`<br>
 
 **GET /?id=id_do_registro**<br>
-Retorna um registro específico da tabela no mesmo formato acima
+Retorna um registro específico da tabela no mesmo formato acima.
 
 **POST**<br>
 Insere um novo registro na tabela. Deve ser enviado no seguinte formato:
@@ -95,7 +95,7 @@ Insere um novo registro na tabela. Deve ser enviado no seguinte formato:
 `}`<br>
 
 **PUT /?id=id_do_registro**<br>
-Edita um registro da tabela. Deve ser enviado no mesmo formato do POST
+Edita um registro da tabela. Deve ser enviado no mesmo formato do POST.
 
 **DELETE /?id=id_do_registro**<br>
 Deleta um registro da tabela.
